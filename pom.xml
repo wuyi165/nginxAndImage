@@ -34,13 +34,11 @@
      <artifactId> spring-boot-starter-web </artifactId>
    </dependency>
 
-   <dependency>
-     <groupId>junit</groupId>
-     <artifactId>junit</artifactId>
-     <version>4.11</version>
-     <scope>test</scope>
-
-   </dependency>
+     <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-test</artifactId>
+         <scope>test</scope>
+     </dependency>
 
    <dependency>
      <groupId>org.projectlombok</groupId>
@@ -60,6 +58,26 @@
          <groupId>com.jhlabs</groupId>
          <artifactId>filters</artifactId>
          <version>2.0.235-1</version>
+     </dependency>
+
+
+
+     <!-- https://mvnrepository.com/artifact/ch.ethz.ganymed/ganymed-ssh2 -->
+     <dependency>
+         <groupId>ch.ethz.ganymed</groupId>
+         <artifactId>ganymed-ssh2</artifactId>
+         <version>262</version>
+     </dependency>
+
+
+     <dependency>
+         <groupId>org.springframework.kafka</groupId>
+         <artifactId>spring-kafka</artifactId>
+     </dependency>
+     <dependency>
+         <groupId>com.alibaba</groupId>
+         <artifactId>fastjson</artifactId>
+         <version>1.2.47</version>
      </dependency>
 
  </dependencies>
